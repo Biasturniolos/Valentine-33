@@ -7,24 +7,24 @@
     <body>
         <div class="container">
             <div >
-                <h1 class = "header_text">Do you wanna go out with me ehe</h1>
+                <h1 class = "header_text">DQueres ser a minha pookie para o dia dos namorados? 😍😍😍😍😍😍😍😍😍😍</h1>
             </div>
             <div class="gif_container">
                 <img src="https://media.giphy.com/media/LnKonfpQ44fNvuGLkA/giphy.gif" alt="Cute animated illustration">
             </div>
             <div class = "buttons">
-                <button class="btn" id = "yesButton" onclick="nextPage()">Yes</button>
-                <button class="btn" id="noButton" onmouseover="moveButton()">No</button>
+                <button class="btn" id = "simButton" onclick="nextPage()">sim</button>
+                <button class="btn" id="nãoButton" onmouseover="moveButton()">não</button>
                 <script>
                     function nextPage() {
-                        window.location.href = "yes.html";
+                        window.location.href = "sim.html";
                     }
                     
                     function moveButton() {
-                        var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth);
-                        var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight);
-                        document.getElementById('noButton').style.left = `${x}px`;
-                        document.getElementById('noButton').style.top = `${y}px`;
+                        var x = Math.random() * (window.innerWidth - document.getElementById('nãoButton').offsetWidth);
+                        var y = Math.random() * (window.innerHeight - document.getElementById('nãoButton').offsetHeight);
+                        document.getElementById('nãoButton').style.left = `${x}px`;
+                        document.getElementById('nãoButton').style.top = `${y}px`;
                     }
                 </script> 
             </div>
